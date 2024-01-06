@@ -20,7 +20,18 @@ The following are the different Perception approaches of LLM
   - Modality: Vector, Language
   - Output: Answer, Actions
 - [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://llmbev.github.io/talk2bev/)
-  - Backbone: LLaMA
+  - Backbone: Flan5XXL, Vicuna-13b
+  - Modality: Vector, Language
+  - Output: Answer, Actions
+
+
+## Planning
+- [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://llmbev.github.io/talk2bev/)
+  - Backbone: Flan5XXL, Vicuna-13b
+  - Modality: Vector, Language
+  - Output: Answer, Actions
+- [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://llmbev.github.io/talk2bev/)
+  - Backbone: Flan5XXL, Vicuna-13b
   - Modality: Vector, Language
   - Output: Answer, Actions
 

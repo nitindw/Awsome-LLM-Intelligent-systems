@@ -31,7 +31,7 @@ The following are the different Perception approaches of LLM
   - Modality: Vision Language
   - Output: Answer
 - [**GAIA-1: A Generative World Model for Autonomous Driving**](https://arxiv.org/abs/2309.17080) [arXiv 2023] <br> AnthonyHu, LloydRussell, HudsonYeo, ZakMurez, GeorgeFedoseev,AlexKendall,JamieShotton,andGianlucaCorrado. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/taesiri/ArXivQA/blob/main/papers/2309.17080.md)
-  - Backbone: Flan5XXL, Vicuna-13b
+  - Backbone: GAIA generative model
   - Modality: Vision Language
   - Output: Video
 

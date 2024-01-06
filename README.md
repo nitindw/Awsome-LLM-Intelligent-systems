@@ -35,9 +35,9 @@ The following are the different Perception approaches of LLM
   - Modality: Vision Language
   - Output: Video
  - [**LanguageModelsasZero-ShotPlanners: ExtractingActionableKnowledgeforEmbodiedAgents**](https://arxiv.org/abs/2201.07207) [arXiv 2022] <br> WenlongHuang,PieterAbbeel,DeepakPathak, andIgor Mordatch. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huangwl18/language-planner)
-  - Backbone: GAIA generative model
-  - Modality: Vision Language
-  - Output: Video
+  - Backbone: GPT-3 Codex
+  - Modality: Language
+  - Output: proposal
 
 
 ## Control

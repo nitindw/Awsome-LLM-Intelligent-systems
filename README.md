@@ -15,11 +15,11 @@ The following are the different Perception approaches of LLM
 
 ## Perception
 
-- [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [arXiv 2023] <br> Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenDriveLab/ThinkTwice(https://github.com/wayveai/Driving-with-LLMs))
+- [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [arXiv 2023] <br> Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wayveai/Driving-with-LLMs)
   - Backbone: LLaMA
   - Modality: Vector, Language
   - Output: Answer, Actions
-- [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)]((https://llmbev.github.io/talk2bev/))
+- [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://llmbev.github.io/talk2bev/)
   - Backbone: LLaMA
   - Modality: Vector, Language
   - Output: Answer, Actions
@@ -27,7 +27,7 @@ The following are the different Perception approaches of LLM
 
 ## Control
 
-- [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [arXiv 2023] <br> Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenDriveLab/ThinkTwice(https://github.com/wayveai/Driving-with-LLMs))
+- [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [arXiv 2023] <br> Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wayveai/Driving-with-LLMs)
   - Backbone: LLaMA
   - Modality: Vector, Language
   - Output: Answer, Actions

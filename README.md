@@ -38,7 +38,10 @@ The following are the different Perception approaches of LLM
   - Backbone: GPT-3 Codex
   - Modality: Language
   - Output: proposal
-
+- [**Dilu: Aknowledge-driven approach to autonomous drivingwith large languagemodels**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai,MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
+  - Backbone: GPT-3.5
+  - Modality: Language
+  - Output: Action
 
 ## Control
 
@@ -46,3 +49,7 @@ The following are the different Perception approaches of LLM
   - Backbone: LLaMA
   - Modality: Vector, Language
   - Output: Answer, Actions
+- [**Dilu: Aknowledge-driven approach to autonomous drivingwith large languagemodels**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai,MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
+  - Backbone: GPT-4.0
+  - Modality: Language
+  - Output: Action

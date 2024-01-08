@@ -42,6 +42,10 @@ The following are the different Perception approaches of LLM
   - Backbone: GPT-3.5
   - Modality: Language
   - Output: Action
+- [**Driveasyouspeak: Enablinghuman-likeinteractionwithlarge languagemodels inautonomousvehicles**](https://openaccess.thecvf.com/content/WACV2024W/LLVM-AD/html/Cui_Drive_As_You_Speak_Enabling_Human-Like_Interaction_With_Large_Language_WACVW_2024_paper.html) [WACV Workshops 2024] <br> CanCui,YunshengMa,XuCao,WenqianYe, andZiran Wang. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
+  - Backbone: GPT-4
+  - Modality: Language
+  - Output: code
 
 ## Control
 

@@ -58,6 +58,11 @@ The following are the different Perception approaches of LLM
   - Backbone: GPT-3.5
   - Modality: Vision Language
   - Output: Route
+- [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie,PeizhongGao,GuyueZhou, and Jiangtao Gong. <br>
+  - Backbone: GPT-4
+  - Modality: Language
+  - Output: Text, Answer
+  
 ## Control
 
 - [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [arXiv 2023] <br> Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wayveai/Driving-with-LLMs)
@@ -76,3 +81,7 @@ The following are the different Perception approaches of LLM
   - Backbone: GPT-3.5
   - Modality: Language
   - Output: Answer
+- [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie,PeizhongGao,GuyueZhou, and Jiangtao Gong. <br>
+  - Backbone: GPT-4
+  - Modality: Language
+  - Output: Text, Answer

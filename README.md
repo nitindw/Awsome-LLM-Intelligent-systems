@@ -16,7 +16,7 @@ This repo contains a curated list of resources on LLM for Intelligent systems( A
 <a href="http://arxiv.org/abs/2307.04370">
   <img align="left" alt="JJ's Medium" src="https://img.shields.io/badge/arXiv-2307.04370-b31b1b.svg" />
 </a>
-
+Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https://github.com/Pranav-chib) </p>
 ## Table of Contents
 
 - [Perception](#LEARNING-APPROACHES)

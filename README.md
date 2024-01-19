@@ -3,18 +3,13 @@ This repo contains a curated list of resources on LLM for Intelligent systems( A
 
 <p align="center">
 <img src="/Learning3_Methods.gif" width="500" height="500"/>
-<p>
+</p>
 
 <hr />
 
 
-<a href="https://ieeexplore.ieee.org/document/10258330">
-  <img align="left" alt="JJ's Medium" src="https://camo.githubusercontent.com/9505a1887908dd93299cbeedd06bb8bf706b2e5fc69e682bee1375b235ba4009/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4945454526636f6c6f723d303036323942266c6f676f3d49454545266c6f676f436f6c6f723d464646464646266c6162656c3d" />
-</a>
-<a href="http://arxiv.org/abs/2307.04370">
-  <img align="left" alt="JJ's Medium" src="https://img.shields.io/badge/arXiv-2307.04370-b31b1b.svg" />
-</a>
-Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https://github.com/Pranav-chib) , [Pravendra Singh](https://scholar.google.com/citations?user=YwDTxJMAAAAJ&hl=en)</p>
+
+Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https://github.com/Pranav-chib) , [Pravendra Singh](https://scholar.google.com/citations?user=YwDTxJMAAAAJ&hl=en) </p>
 ## Table of Contents
 
 - [Perception](#LEARNING-APPROACHES)

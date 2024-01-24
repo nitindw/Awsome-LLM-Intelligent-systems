@@ -1,4 +1,4 @@
-# <p align=center>`Awsome-LLM-Intelligent-systems`<br>
+# <p align=center>`Awsome-LLM-Modal for Autonomus Driving`<br>
 This repo contains a curated list of resources on LLM for Intelligent systems( Autonomous driving, Robotics ..etc) , arranged chronologically. We regularly update it with the latest papers and their corresponding open-source implementations.</p>
 
 <p align="center">

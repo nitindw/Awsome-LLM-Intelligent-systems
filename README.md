@@ -15,6 +15,8 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 - [Perception](#LEARNING-APPROACHES)
 - [Planning](#EXPLAINABILITY)
 - [Control](#EVALUATION)
+- [Prompt Engineering](#Preparation)
+- [Fine Tuning](#Adjustment)
 - [Simulation Frameworks](#SAFETY)
 - [Datasets](#Large-Language-Models-in-autonomous-driving)
 - [CITATION](#Citation)

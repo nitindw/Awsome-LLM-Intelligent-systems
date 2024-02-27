@@ -77,6 +77,24 @@ and ground-truth responses from the NuScenes dataset.
   - Backbone: Flan5XXL, Vicuna-13b
   - Modality: Vision Language
   - Output: Answer
+<p align = "justify">
+ For safe navigation without human intervention, autonomous driving (AD) systems need to understand the
+visual world around them to make informed decisions. This
+ entails not just recognizing specific object categories, but also
+contextualizing their current and potential future interactions
+with the environment. Existing AD systems rely on domain specific models for each scene understanding task, such as
+detecting traffic actors and signage or forecasting plausible
+future events. On the other hand, recent advances in large
+language models (LLMs) and large vision-language
+models (LVLMs) have demonstrated a
+promising alternative to thinking about perception for AD;
+that of a single model pre-trained on web-scale data, capable
+of performing all the aforementioned tasks and more (particularly, the ability to deal with unforeseen scenarios). In
+this work they ask, how do we most efficiently integrate such
+capabilities of LLMs with scene representations traditionally
+used in autonomous driving?
+</p>
+
 - [**GAIA-1: A Generative World Model for Autonomous Driving**](https://arxiv.org/abs/2309.17080) [arXiv 2023] <br> AnthonyHu, LloydRussell, HudsonYeo, ZakMurez, GeorgeFedoseev,AlexKendall,JamieShotton,andGianlucaCorrado. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/taesiri/ArXivQA/blob/main/papers/2309.17080.md)
   - Backbone: GAIA generative model
   - Modality: Vision Language

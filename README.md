@@ -99,6 +99,25 @@ used in autonomous driving?
   - Backbone: GAIA generative model
   - Modality: Vision Language
   - Output: Video
+<p align="justify">
+Autonomous driving promises transformative improvements to transportation, but
+building systems capable of safely navigating the unstructured complexity of
+real-world scenarios remains challenging. A critical problem lies in effectively
+predicting the various potential outcomes that may emerge in response to the
+vehicle’s actions as the world evolves.
+To address this challenge, They introduce GAIA-1 (‘Generative AI for Autonomy’),
+a generative world model that leverages video, text, and action inputs to generate
+realistic driving scenarios while offering fine-grained control over ego-vehicle
+behavior and scene features. Our approach casts world modeling as an unsupervised sequence modeling problem by mapping the inputs to discrete tokens, and
+predicting the next token in the sequence. Emerging properties from our model
+include learning high-level structures and scene dynamics, contextual awareness,
+generalization, and understanding of geometry. The power of GAIA-1’s learned
+representation that captures expectations of future events, combined with its ability
+to generate realistic samples, provides new possibilities for innovation in the field
+of autonomy, enabling enhanced and accelerated training of autonomous driving
+technology
+  </p>
+  
  - [**Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents**](https://arxiv.org/abs/2201.07207) [arXiv 2022] <br> Wenlong Huang, Pieter Abbeel, Deepak Pathak, and Igor Mordatch. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huangwl18/language-planner)
   - Backbone: GPT-3 Codex
   - Modality: Language

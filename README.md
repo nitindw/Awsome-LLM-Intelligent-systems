@@ -277,10 +277,51 @@ default configurations.
   - Backbone: GPT-4
   - Modality: Language
   - Output: Answer
+<p align="justify">
+Imagine a situation where you are in control of an autonomous vehicle, and you feel the front vehicle is too slow
+and desire to safely overtake that vehicle. All you have to do
+is speak out the command, ”Pass the vehicle in front of me.”
+At that point, the LLMs would assess the existing conditions
+and safety considerations in real time, providing you with
+informed guidance on the feasibility and recommended actions
+for executing the maneuver. Furthermore, in the context of
+fully autonomous vehicles, the LLMs’ capabilities could even
+extend to taking charge of the vehicle and executing the
+instructed commands.</p>
+<p align="justify">
+The promise of integrating LLMs into autonomous driving
+systems is enormous. It holds the potential to enhance the
+safety, efficiency, and user experience of autonomous vehicles
+in novel ways. By gathering the vast knowledge and reasoning
+abilities of these models, vehicles are not only self-driving but
+also highly adaptive, capable of understanding and responding
+to the complex interactions of the road.
+</p>
+<p align="justify">
+To address the challenge above, we present a novel approach
+where LLMs serve as the decision-making “brain” within autonomous vehicles. Complementing this, various tools within
+the autonomous vehicle ecosystem, including the perception
+module, localization module, and in-cabin monitor, function as
+the vehicle’s sensory “eyes.” This configuration enables LLMs
+to overcome the inherent limitation of not directly accessing
+real-time environmental information. Additionally, the vehicle’s controller function as its “hands,” executing instructions
+derived from the LLM’s decision-making process. Through
+receiving environmental information and drivers’ commands,
+reasoning based on this information and human interaction,
+and finally making decisions, we make the autonomous driving
+experience that is not just technologically superior but also
+deeply human-centric by LLMs. This approach gains even
+more credibility through experiments conducted in various
+driving scenarios, providing proof of LLMs’ revolutionalizing
+potential in the realm of autonomous vehicles.
+</p> 
+
 - [**Drive Like a Human:Rethinking Autonomous Driving with Large Language Models**](https://arxiv.org/abs/2307.07162) [arXiv 2023] <br> DaochengFu,XinLi,LichengWen,MinDou,PinlongCai, BotianShi,andYuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DriveLikeAHuman)
   - Backbone: GPT-3.5
   - Modality: Language
   - Output: Answer
+
+
 - [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie, PeizhongGao, GuyueZhou, and Jiangtao Gong. <br>
   - Backbone: GPT-4
   - Modality: Language

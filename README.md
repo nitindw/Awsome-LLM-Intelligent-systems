@@ -225,13 +225,13 @@ With camera sensors being one of the most common sensors used in autonomous driv
 with traffic surveillance camera system: Detection, localization, and ai networking</a>, a
 natural step to incorporate language has been through VLMs. For example <a href="https://proceedings.mlr.press/v100/roh20a.html">Conditional driving from natural
 language instructions </a>uses images and
-language directions to train a driving policy. [36] proposes a method for learning vehicle control with
+language directions to train a driving policy. <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Kim_Advisable_Learning_for_Self-Driving_Vehicles_by_Internalizing_Observation-to-Action_Rules_CVPR_2020_paper.html">Advisable learning for self-driving vehicles by internalizing observation-to-action rules</a> proposes a method for learning vehicle control with
 human assistance. The system learns to summarize its visual observations in natural language, predict
 an appropriate action response (e.g. “I see a pedestrian crossing, so I stop”), and predict the controls,
 accordingly. Using language to explain the inner workings of the model has also been explored in
-[37], where user-friendly natural language narrations and reasoning are provided for each decision
+<a href="https://arxiv.org/abs/2302.00673">Adapt Action-aware driving caption transformer</a>, where user-friendly natural language narrations and reasoning are provided for each decision
 making step of autonomous vehicular control and action.
-In robotics, we have seen efforts fusing language with other modalities. Albeit outside of autonomous
+In robotics, we have seen efforts to fuse language with other modalities. Albeit outside of the autonomous
 driving field, the closest work to ours [38] utilizes point clouds with 3D bounding boxes of potential
 object candidates. It also uses a language utterance referring to a target object in the scene to train a
 model capable of identifying a target object from a set of potential candidates. Recently, the RT-2
@@ -243,10 +243,36 @@ existing efforts, the work presented in this paper is, to the best of our knowle
 numeric vector modality with language specifically in the domain of autonomous vehicles.
 </p>
 
-- [**Dilu: Aknowledge-driven approach to autonomous driving with large language models**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai,MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
+- [**Dilu: Aknowledge-driven approach to autonomous driving with large language models**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai, MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
   - Backbone: GPT-4.0
   - Modality: Language
   - Output: Action
+<p align="justify">
+Drawing inspiration from the profound question posed by LeCun (2022):<b> “Why can an adolescent learn to drive a car in about 20 hours of practice and know how to act in many situations"</b>
+he/she has never encountered before?”, we explore the core principles that underlie human driving
+skills and raise a pivotal distinction: human driving is fundamentally knowledge-driven, as opposed
+to data-driven. For example, when faced with a situation where the truck ahead is in danger of
+losing its cargo, humans can rely on common sense and explainable reasoning to ensure a safe distance is maintained between vehicles. Conversely, data-driven methods rely on a large quantity of similar data to fit this scenario which lacks environment comprehension and limits generalization
+ability <a href="https://ieeexplore.ieee.org/abstract/document/9575933">An application-driven conceptualization of corner
+cases for perception in highly automated driving</a>, <a href="https://ieeexplore.ieee.org/abstract/document/9963987">Milestones in autonomous driving and intelligent vehicles: Survey of surveys</a>, and <a href="https://arxiv.org/abs/2302.06803">Bringing diversity to autonomous vehicles: An interpretable multi-vehicle decision-making and planning framework</a>. Furthermore, this task requires
+significant human labor and financial resources to collect and annotate driving data to handle varied
+real-world scenarios. This observation catalyzes a fundamental question:<b> How can we instill such
+knowledge-driven capabilities of human drivers into an autonomous driving system?</b>
+</p>
+<p align="justify">
+  In terms of the setup for highway-env, we directly obtain vehicle information from the underlying
+simulation and input it into the scenario descriptor. This information only includes each vehicle’s
+position, speed, and acceleration data in the current frame, without any decision intent or potential
+risk information, as shown in Figure 8. Meta-actions are used as the decision output in our experiments, which include five discrete actions to control the ego vehicle: acceleration, maintaining
+speed, deceleration, and lane changes to the left and right. For each closed-loop driving task, we
+define a successful completion time of 30 seconds, with a decision-making frequency of 1Hz. This
+means that if the ego vehicle can navigate through traffic at a reasonable speed and without collisions for 30 seconds, we consider the task to be successfully completed. Unless otherwise stated,
+our experimental environment is a four-lane motorway with a vehicle density of 2.0, representing
+scenarios with relatively high traffic density and complexity. All other settings follow the simulator’s
+default configurations.
+
+</p>
+
 - [**Receive,Reason,andReact:Drive as You Say with Large Language Models in Autonomous Vehicles**](https://arxiv.org/abs/2310.08034) [arXiv 2023] <br> CanCui,YunshengMa,XuCao,WenqianYe, andZiran Wang. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
   - Backbone: GPT-4
   - Modality: Language
@@ -255,7 +281,10 @@ numeric vector modality with language specifically in the domain of autonomous v
   - Backbone: GPT-3.5
   - Modality: Language
   - Output: Answer
-- [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie,PeizhongGao,GuyueZhou, and Jiangtao Gong. <br>
+- [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie, PeizhongGao, GuyueZhou, and Jiangtao Gong. <br>
   - Backbone: GPT-4
   - Modality: Language
   - Output: Text, Answer
+<p align="justify">
+Simulation plays a critical role in the research and development of autonomous driving and intelligent transportation systems. However, the current simulation platforms exhibit limitations in the realism and diversity of agent behaviors, which impede the transfer of simulation outcomes to the real world. In this paper, we propose a generative driver agent simulation framework based on large language models (LLMs), capable of perceiving complex traffic scenarios and providing realistic driving maneuvers. Notably, we conducted interviews with 24 drivers and used their detailed descriptions of driving behavior as chain-of-thought prompts to develop a `coach agent' module, which can evaluate and assist driver agents in accumulating driving experience and developing human-like driving styles. Through practical simulation experiments and user experiments, we validate the feasibility of this framework in generating reliable driver agents and analyze the roles of each module. The results show that the framework with full architect decreased the collision rate by 81.04% and increased the human-likeness by 50%. Our research proposes the first urban context driver agent simulation framework based on LLMs and provides valuable insights into the future of agent simulation for complex tasks.
+</p>

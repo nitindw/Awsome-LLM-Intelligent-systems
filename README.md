@@ -34,7 +34,8 @@ The following are the different Perception approaches of LLM
   - Backbone: Flan5XXL, Vicuna-13b
   - Modality: Vision Language
   - Output: Answer
-<p align="center">— This work introduces Talk2BEV, a large vision language model (LVLM)1
+<p align="justify">
+This work introduces Talk2BEV, a large vision language model (LVLM)1
 interface for bird’s-eye view (BEV)
 maps in autonomous driving contexts. While existing perception
 systems for autonomous driving scenarios have largely focused

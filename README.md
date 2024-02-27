@@ -223,7 +223,8 @@ Simulation plays a critical role in the research and development of autonomous d
 <p align="justify">
 With camera sensors being one of the most common sensors used in autonomous driving <a href="https://www.mdpi.com/1424-8220/23/6/3335">Sensor fusion in autonomous vehicle
 with traffic surveillance camera system: Detection, localization, and ai networking</a>, a
-natural step to incorporate language has been through VLMs. For example [35] uses images and
+natural step to incorporate language has been through VLMs. For example <a href="https://proceedings.mlr.press/v100/roh20a.html">Conditional driving from natural
+language instructions </a>uses images and
 language directions to train a driving policy. [36] proposes a method for learning vehicle control with
 human assistance. The system learns to summarize its visual observations in natural language, predict
 an appropriate action response (e.g. “I see a pedestrian crossing, so I stop”), and predict the controls,

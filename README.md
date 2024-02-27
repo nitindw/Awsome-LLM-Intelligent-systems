@@ -7,7 +7,7 @@ This repo contains a curated list of resources on LLM for Intelligent systems( A
 
 <hr />
 
-<img src="\time_line.png" alt="Time Line" />
+<img src="\time_line.png" width="500" alt="Time Line" />
 
 
 

@@ -220,6 +220,28 @@ Simulation plays a critical role in the research and development of autonomous d
   - Backbone: LLaMA
   - Modality: Vector, Language
   - Output: Answer, Actions
+<p align="justify">
+With camera sensors being one of the most common sensors used in autonomous driving <a href="https://www.mdpi.com/1424-8220/23/6/3335">Sensor fusion in autonomous vehicle
+with traffic surveillance camera system: Detection, localization, and ai networking</a>, a
+natural step to incorporate language has been through VLMs. For example [35] uses images and
+language directions to train a driving policy. [36] proposes a method for learning vehicle control with
+human assistance. The system learns to summarize its visual observations in natural language, predict
+an appropriate action response (e.g. “I see a pedestrian crossing, so I stop”), and predict the controls,
+accordingly. Using language to explain the inner workings of the model has also been explored in
+[37], where user-friendly natural language narrations and reasoning are provided for each decision
+making step of autonomous vehicular control and action.
+In robotics, we have seen efforts fusing language with other modalities. Albeit outside of autonomous
+driving field, the closest work to ours [38] utilizes point clouds with 3D bounding boxes of potential
+object candidates. It also uses a language utterance referring to a target object in the scene to train a
+model capable of identifying a target object from a set of potential candidates. Recently, the RT-2
+paper [39] demonstrated a similar approach by utilizing LLMs for low-level robotics control tasks,
+including the joint training of VQA and control tasks. However, their framework is confined to the
+vision modality, whereas we introduce a novel methodology for grounding vector-based object level
+modalities into LLMs, facilitating interpretable control and driving QA tasks. In contrast to these
+existing efforts, the work presented in this paper is, to the best of our knowledge, the first to fuse
+numeric vector modality with language specifically in the domain of autonomous vehicles.
+</p>
+
 - [**Dilu: Aknowledge-driven approach to autonomous driving with large language models**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai,MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
   - Backbone: GPT-4.0
   - Modality: Language

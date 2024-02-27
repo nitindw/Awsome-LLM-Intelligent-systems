@@ -45,6 +45,7 @@ behavioral cloning. We make our benchmark, datasets, and model available 1
 for
 further exploration.
 </p>
+
 - [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/llmbev/talk2bev)
   - Backbone: Flan5XXL, Vicuna-13b
   - Modality: Vision Language
@@ -67,7 +68,9 @@ for autonomous driving scenarios, This paper develops and release
 Talk2BEV-Bench, a benchmark encompassing 1000 human annotated BEV scenarios, with more than 20,000 questions
 and ground-truth responses from the NuScenes dataset.
 </p>
+
 ## Planning
+
 - [**Talk2BEV: Language-Enhanced Bird's Eye View Maps**](https://arxiv.org/abs/2310.02251) [arXiv 2023] <br> Vikrant Dewangan, Tushar Choudhary, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/llmbev/talk2bev)
   - Backbone: Flan5XXL, Vicuna-13b
   - Modality: Vision Language

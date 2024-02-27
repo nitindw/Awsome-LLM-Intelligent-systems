@@ -7,6 +7,8 @@ This repo contains a curated list of resources on LLM for Intelligent systems( A
 
 <hr />
 
+<img src="\time_line.png" alt="Time Line" />
+
 
 
 Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https://github.com/Pranav-chib) , [Pravendra Singh](https://scholar.google.com/citations?user=YwDTxJMAAAAJ&hl=en) </p>

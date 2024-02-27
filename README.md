@@ -122,10 +122,40 @@ technology
   - Backbone: GPT-3 Codex
   - Modality: Language
   - Output: proposal
+<p align = "justify">
+  Can world knowledge learned by large language models (LLMs) be used to act in
+interactive environments? In this paper, They investigate the possibility of grounding
+high-level tasks, expressed in natural language (e.g. “make breakfast”), to a chosen
+set of actionable steps (e.g. “open fridge”). While prior work focused on learning
+from explicit step-by-step examples of how to act, They surprisingly find that if
+pre-trained LMs are large enough and prompted appropriately, they can effectively
+decompose high-level tasks into mid-level plans without any further training. However, the plans produced naively by LLMs often cannot map precisely to admissible
+actions. They propose a procedure that conditions on existing demonstrations and
+semantically translates the plans to admissible actions. Our evaluation in the recent
+VirtualHome environment shows that the resulting method substantially improves
+executability over the LLM baseline. The conducted human evaluation reveals a
+trade-off between executability and correctness but shows a promising sign towards
+extracting actionable knowledge from language models
+</p>
+
 - [**Dilu: Aknowledge-driven approach to autonomous driving with large language models**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai, MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
   - Backbone: GPT-3.5
   - Modality: Language
   - Output: Action
+<p align = "justify">
+  Recent advancements in autonomous driving have relied on data-driven approaches, which are widely adopted but face challenges including dataset bias,
+overfitting, and uninterpretability. Drawing inspiration from the knowledge-driven
+nature of human driving, They explore the question of how to instill similar capabilities into autonomous driving systems and summarize a paradigm that integrates an interactive environment, a driver agent, as well as a memory component
+to address this question. Leveraging large language models (LLMs) with emergent abilities, They propose the DiLu framework, which combines Reasoning and
+a Reflection module to enable the system to perform decision-making based on
+common-sense knowledge and evolve continuously. Extensive experiments prove
+DiLu’s capability to accumulate experience and demonstrate a significant advantage in generalization ability over reinforcement learning-based methods. Moreover, DiLu is able to directly acquire experiences from real-world datasets which
+highlights its potential to be deployed on practical autonomous driving systems.
+To the best of our knowledge, They are the first to leverage knowledge-driven capability in decision-making for autonomous vehicles. Through the proposed DiLu
+framework, LLM is strengthened to apply knowledge and to reason causally in the
+autonomous driving domain.
+</p>
+
 - [**Drive as you speak: Enabling human-like interaction with large language models in autonomous vehicles**](https://openaccess.thecvf.com/content/WACV2024W/LLVM-AD/html/Cui_Drive_As_You_Speak_Enabling_Human-Like_Interaction_With_Large_Language_WACVW_2024_paper.html) [WACV Workshops 2024] <br> CanCui, YunshengMa, XuCao, WenqianYe, andZiran Wang. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
   - Backbone: GPT-4
   - Modality: Language

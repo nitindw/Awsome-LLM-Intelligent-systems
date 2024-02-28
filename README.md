@@ -341,15 +341,15 @@ or simulator, human drivers or driving algorithms, and simulator or instructor f
 <p align="justify">
 The main contributions of this paper are as follows:
 <ol type="1">
-<list>We dive deep into how to make autonomous driving systems drive like a humans to prevent
+<li>We dive deep into how to make autonomous driving systems drive like a humans to prevent
 catastrophic forgetting of the existing AD systems when facing long-tail corner cases and
 summarized into three key abilities to drive like a human: Reasoning, Interpretation and
-Memorization.</list>
-<list>We are the first to demonstrate the feasibility of employing LLM in driving scenarios and
-exploit its decision-making ability in the simulated driving environment.</list>
-<list>Extensive experiments in our study express impressive comprehension and the ability to
+Memorization.</li>
+<li>We are the first to demonstrate the feasibility of employing LLM in driving scenarios and
+exploit its decision-making ability in the simulated driving environment.</li>
+<li>Extensive experiments in our study express impressive comprehension and the ability to
 solve long-tailed cases. We hope that these insights will inspire academia and industry to
-contribute to the development of human-like autonomous driving.</list></ol>
+contribute to the development of human-like autonomous driving.</li></ol>
 </p>
 
 - [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie, PeizhongGao, GuyueZhou, and Jiangtao Gong. <br>

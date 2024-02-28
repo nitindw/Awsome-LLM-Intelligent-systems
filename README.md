@@ -338,6 +338,7 @@ feedback when it acts inconsistently, which forms the supervision flow. To be sp
 driving framework, the Environment, the Agent, and the Expert can be represented by the real-world
 or simulator, human drivers or driving algorithms, and simulator or instructor feedback, respectively.
 </p>
+<img src="\control.webp" alt="GPT-3.5 closed loop driving" />
 <p align="justify">
 The main contributions of this paper are as follows:
 <ol type="1">

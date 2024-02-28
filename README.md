@@ -64,8 +64,8 @@ tasks encompassing visual and spatial reasoning, predicting the
 intents of traffic actors, and decision-making based on visual
 cues. This paper extensively evaluates Talk2BEV on a large number
 of scene understanding tasks that rely on both the ability to
-interpret free-form natural language queries and in grounding
-these queries to the visual context embedded into the language enhanced BEV map. To enable further research in LVLMs
+interpret free-form natural language queries and grounding
+these queries to the visual context embedded into the language-enhanced BEV map. To enable further research in LVLMs
 for autonomous driving scenarios, This paper develops and release
 Talk2BEV-Bench, a benchmark encompassing 1000 human annotated BEV scenarios, with more than 20,000 questions
 and ground-truth responses from the NuScenes dataset.
@@ -82,12 +82,12 @@ and ground-truth responses from the NuScenes dataset.
 visual world around them to make informed decisions. This
  entails not just recognizing specific object categories, but also
 contextualizing their current and potential future interactions
-with the environment. Existing AD systems rely on domain specific models for each scene understanding task, such as
+with the environment. Existing AD systems rely on domain-specific models for each scene understanding task, such as
 detecting traffic actors and signage or forecasting plausible
 future events. On the other hand, recent advances in large
 language models (LLMs) and large vision-language
 models (LVLMs) have demonstrated a
-promising alternative to thinking about perception for AD;
+a promising alternative to thinking about perception for AD;
 that of a single model pre-trained on web-scale data, capable
 of performing all the aforementioned tasks and more (particularly, the ability to deal with unforeseen scenarios). In
 this work they ask, how do we most efficiently integrate such
@@ -320,7 +320,37 @@ potential in the realm of autonomous vehicles.
   - Backbone: GPT-3.5
   - Modality: Language
   - Output: Answer
-
+<p align="justify">
+Towards the goal of driving like a human, we identify three abilities that are necessary: 1) Reasoning:
+Given a specific driving scenario, the model should be able to make decisions by reasoning via
+common sense and experience. 2) Interpretation The decisions made by the agent should able to be
+interpreted. This demonstrates the ability of introspection and the existence of declarative memory.
+3) Memorization: After reasoning and interpreting scenarios, a memory mechanism is required to
+remember previous experiences and enable the agent to make similar decisions once facing similar
+situations.
+Based on the above three properties, we refer to the paradigm of human learning to drive and condense
+a canonical form of a driving system. This schema includes four modules:
+(1) Environment creates a stage that the agent can interact with by the interaction flow; (2) Agent
+stands for a driver that can perceive the environment and make decisions utilizing its memory and
+learning from expert advice; (3) Memory allows the agent to accumulate experience and perform
+actions with it via the reflection flow; and (4) Expert provides advice on agent training and gives
+feedback when it acts inconsistently, which forms the supervision flow. To be specific, as a universal
+driving framework, the Environment, the Agent, and the Expert can be represented by the real-world
+or simulator, human drivers or driving algorithms, and simulator or instructor feedback, respectively.
+</p>
+<p align="justify">
+The main contributions of this paper are as follows:
+<ol type="1">
+<list>We dive deep into how to make autonomous driving systems drive like a humans to prevent
+catastrophic forgetting of the existing AD systems when facing long-tail corner cases and
+summarized into three key abilities to drive like a human: Reasoning, Interpretation and
+Memorization.</list>
+<list>We are the first to demonstrate the feasibility of employing LLM in driving scenarios and
+exploit its decision-making ability in the simulated driving environment.</list>
+<list>Extensive experiments in our study express impressive comprehension and the ability to
+solve long-tailed cases. We hope that these insights will inspire academia and industry to
+contribute to the development of human-like autonomous driving.</list></ol>
+</p>
 
 - [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie, PeizhongGao, GuyueZhou, and Jiangtao Gong. <br>
   - Backbone: GPT-4

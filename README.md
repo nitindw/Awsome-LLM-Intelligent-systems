@@ -18,8 +18,8 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 - [Planning](#Planning)
 - [Control](#Control)
 - [Prompt Engineering](#PromptEngineering)
-- [Fine Tuning](#[Fine Tuning])
-- [Simulation Frameworks](#[Simulation Frameworks])
+- [Fine Tuning](#FineTuning)
+- [Simulation Frameworks](#SimulationFrameworks)
 - [Datasets](#Dataset)
 - [CITATION](#Citation)
 
@@ -360,3 +360,6 @@ contribute to the development of human-like autonomous driving.</li></ol>
 <p align="justify">
 Simulation plays a critical role in the research and development of autonomous driving and intelligent transportation systems. However, the current simulation platforms exhibit limitations in the realism and diversity of agent behaviors, which impede the transfer of simulation outcomes to the real world. In this paper, They propose a generative driver agent simulation framework based on large language models (LLMs), capable of perceiving complex traffic scenarios and providing realistic driving maneuvers. Notably, They conducted interviews with 24 drivers and used their detailed descriptions of driving behavior as chain-of-thought prompts to develop a `coach agent' module, which can evaluate and assist driver agents in accumulating driving experience and developing human-like driving styles. Through practical simulation experiments and user experiments, They validate the feasibility of this framework in generating reliable driver agents and analyze the roles of each module. The results show that the framework with full architect decreased the collision rate by 81.04% and increased the human-likeness by 50%. Our research proposes the first urban context driver agent simulation framework based on LLMs and provides valuable insights into the future of agent simulation for complex tasks.
 </p>
+
+
+##[Simulation Frameworks]

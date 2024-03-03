@@ -19,7 +19,7 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 - [Control](#Control)
 - [Prompt Engineering](#PromptEngineering)
 - [Fine Tuning](#FineTuning)
-- [Simulation Frameworks](#'Simulation Frameworks')
+- [Simulation Frameworks](#SimulationFrameworks)
 - [Datasets](#Dataset)
 - [CITATION](#Citation)
 
@@ -362,4 +362,7 @@ Simulation plays a critical role in the research and development of autonomous d
 </p>
 
 
-## Simulation Frameworks
+## Simulation Framework
+[**Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents**](https://arxiv.org/abs/2402.05746) [arXiv 2023]
+<br>Yuxi Wei, Zi Wang, Yifan Lu, Chenxin Xu, Changxing Liu, Hao Zhao, Siheng Chen, Yanfeng Wang
+Scene simulation in autonomous driving has gained significant attention because of its huge potential for generating customized data. However, existing editable scene simulation approaches face limitations in terms of user interaction efficiency, multi-camera photo-realistic rendering and external digital assets integration. To address these challenges, this paper introduces ChatSim, the first system that enables editable photo-realistic 3D driving scene simulations via natural language commands with external digital assets. To enable editing with high command flexibility,~ChatSim leverages a large language model (LLM) agent collaboration framework. To generate photo-realistic outcomes, ChatSim employs a novel multi-camera neural radiance field method. Furthermore, to unleash the potential of extensive high-quality digital assets, ChatSim employs a novel multi-camera lighting estimation method to achieve scene-consistent assets rendering. Our experiments on Waymo Open Dataset demonstrate that ChatSim can handle complex language commands and generate corresponding photo-realistic scene videos.

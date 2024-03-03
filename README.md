@@ -362,4 +362,4 @@ Simulation plays a critical role in the research and development of autonomous d
 </p>
 
 
-## [Simulation Frameworks]
+## Simulation Frameworks

@@ -15,12 +15,12 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 ## Table of Contents
 
 - [Perception](#Perception)
-- [Planning](#EXPLAINABILITY)
-- [Control](#EVALUATION)
-- [Prompt Engineering](#Preparation)
-- [Fine Tuning](#Adjustment)
-- [Simulation Frameworks](#SAFETY)
-- [Datasets](#Large-Language-Models-in-autonomous-driving)
+- [Planning](#Planning)
+- [Control](#Control)
+- [Prompt Engineering](#[Prompt Engineering])
+- [Fine Tuning](#[Fine Tuning])
+- [Simulation Frameworks](#[Simulation Frameworks])
+- [Datasets](#Dataset)
 - [CITATION](#Citation)
 
 # Perception

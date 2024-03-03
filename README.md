@@ -17,7 +17,7 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 - [Perception](#Perception)
 - [Planning](#Planning)
 - [Control](#Control)
-- [Prompt Engineering](#Prompt Engineering)
+- [[Prompt Engineering]](#Prompt Engineering)
 - [Fine Tuning](#[Fine Tuning])
 - [Simulation Frameworks](#[Simulation Frameworks])
 - [Datasets](#Dataset)

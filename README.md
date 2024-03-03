@@ -14,7 +14,7 @@ This repo contains a curated list of resources on LLM for Intelligent systems( A
 Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https://github.com/Pranav-chib) , [Pravendra Singh](https://scholar.google.com/citations?user=YwDTxJMAAAAJ&hl=en) </p>
 ## Table of Contents
 
-- [Perception](#LEARNING-APPROACHES)
+- [Perception](#Perception)
 - [Planning](#EXPLAINABILITY)
 - [Control](#EVALUATION)
 - [Prompt Engineering](#Preparation)

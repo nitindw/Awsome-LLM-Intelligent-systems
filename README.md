@@ -374,8 +374,8 @@ Simulation plays a critical role in the research and development of autonomous d
 </p>
 
 ## Datasets
-[****]
-|     Paper     |       Backbone      |         Task        |          Evaluation(LLM)          |   Evaluation(driving)   |
+<br>
+|   **Paper**   |     **Backbone**    |       **Task**      |        **Evaluation(LLM)**        | **Evaluation(driving)** |
 |:-------------:|:-------------------:|:-------------------:|:---------------------------------:|:-----------------------:|
 |    MTD-GPT    |        GPT 2        |      Perception     |                RLHF               |                         |
 |   DriveGPT4   |       Llama 2       |   Planning Control  |  BLEU4 METEOR CIDEr ChatGPT score | RMSE Threshold accuracy |
@@ -389,3 +389,27 @@ Simulation plays a critical role in the research and development of autonomous d
 |   GPT-Driver  |       GPT-3.5       |       Planning      |          UniAD AMOTA BEV          |            -            |
 |      DlaH     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
 |      RRR      |        GPT-4        |   Planning Control  |                 -                 |            -            |
+<br><br>
+| **Dataset** | **Source Dataset** | **Task**            | **Total Frames** | **Promt Logic** | **Total captions/QA** | **Anotator**   |
+|-------------|--------------------|---------------------|------------------|-----------------|-----------------------|----------------|
+|             |                    |                     |                  |                 | Perception: 25k       |                |
+| HAD         | HAD                | Perception Planning | 25,549           | None            | Planning: 20k         | Person         |
+|             |                    |                     |                  |                 | Prediction:           |                |
+|             |                    |                     |                  |                 | Perception:           |                |
+| Rank2Tell   | Rank2Tell          | Perception          | 5,800            | Chain           | Planning:             | Person         |
+|             |                    |                     |                  |                 | Prediction:           |                |
+|             |                    |                     |                  |                 | Perception: 35k       | Person GPT-3.5 |
+| NuPrompt    | NuScenes           | Perception          | 34,149           | None            | Planning:             |                |
+|             |                    |                     |                  |                 | Prediction:           |                |
+|             |                    |                     |                  |                 | Perception: 460k      |                |
+| NuScenes    | NuScenes           | VQA                 | 34,149           | None            | Planning:             | Rule-Based     |
+|             |                    |                     |                  |                 | Prediction:           |                |
+|             |                    |                     |                  |                 | Perception: 26k       |                |
+| BDD-X       | BDD                | Planning VQA        | 26,228           | None            | Planning:             | Person         |
+|             |                    |                     |                  |                 | Prediction:           |                |
+|             |                    |                     |                  |                 | Perception: 85k       |                |
+| DRAMA       | DRAMA              | VQA                 | 17,785           | Chain           | Planning: 17k         | Person         |
+|             |                    |                     |                  |                 | Prediction:           |                |
+|             |                    |                     |                  |                 | Perception: 85k       |                |
+| Talk2Car    | Talk2Car           | Perception Planning | 30,000           | None            | Planning: 17k         | Person         |
+|             |                    |                     |                  |                 | Prediction:           |                |

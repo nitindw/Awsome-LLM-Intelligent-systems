@@ -368,4 +368,24 @@ Simulation plays a critical role in the research and development of autonomous d
 <p align = "justify">Scene simulation in autonomous driving has gained significant attention because of its huge potential for generating customized data. However, existing editable scene simulation approaches face limitations in terms of user interaction efficiency, multi-camera photo-realistic rendering and external digital assets integration. To address these challenges, this paper introduces ChatSim, the first system that enables editable photo-realistic 3D driving scene simulations via natural language commands with external digital assets. To enable editing with high command flexibility,~ChatSim leverages a large language model (LLM) agent collaboration framework. To generate photo-realistic outcomes, ChatSim employs a novel multi-camera neural radiance field method. Furthermore, to unleash the potential of extensive high-quality digital assets, ChatSim employs a novel multi-camera lighting estimation method to achieve scene-consistent assets rendering. Our experiments on Waymo Open Dataset demonstrate that ChatSim can handle complex language commands and generate corresponding photo-realistic scene videos.</p>
 
 [**Empowering Autonomous Driving with Large Language Models: A Safety Perspective**](https://arxiv.org/html/2312.00812v3)
-<be><br>
+<be>Yixuan Wang, Ruochen Jiao, Chengtian Lang, Sinong Simon Zhan, Chao Huang, Zhaoran Wang, Zhuoran Yang, Qi Zhu<be>
+<p align="justify">
+  Autonomous Driving (AD) faces crucial hurdles for commercial launch, notably in the form of diminished public trust and safety concerns from long-tail unforeseen driving scenarios. This predicament is due to the limitation of deep neural networks in AD software, which struggle with interpretability and exhibit poor generalization capabilities in out-of-distribution and uncertain scenarios. To this end, this paper explores the integration of Large Language Models (LLMs) into the AD system, leveraging their robust common-sense knowledge, reasoning abilities, and human-interaction capabilities. The proposed approach deploys the LLM as an intelligent decision-maker for planning, incorporating safety verifiers for in-context safety learning to enhance overall AD performance and safety. We present two case studies to affirm the efficacy of our approach. We further discuss the potential usage of LLM for other AD software components including perception, prediction, and simulation. Despite the observed challenges in the case studies, integrating LLMs is promising and beneficial to reinforce the safety and performance of AD.
+</p>
+
+## Datasets
+[****]
+|     Paper     |       Backbone      |         Task        |          Evaluation(LLM)          |   Evaluation(driving)   |
+|:-------------:|:-------------------:|:-------------------:|:---------------------------------:|:-----------------------:|
+|    MTD-GPT    |        GPT 2        |      Perception     |                RLHF               |                         |
+|   DriveGPT4   |       Llama 2       |   Planning Control  |  BLEU4 METEOR CIDEr ChatGPT score | RMSE Threshold accuracy |
+|    Talk2BEV   | Flan5XXL Vicuna-13b | Perception Planning |               LVLMs               |         BEV maps        |
+|     GAIA-1    |          -          |       Planning      |        geofenced validation       |            -            |
+|     LMaZP     |     GPT-3 Codex     |       Planning      |  executability correctness Human  |            -            |
+|      Dilu     |    GPT-3.5 GPT-4    |   Planning Control  | lane-4-density-2 lane-5-density-3 |           GRAD          |
+|      DaYS     |        GPT-4        |       Planning      |                 -                 |            -            |
+|  LanguageMPC  |       GPT-3.5       |       Planning      |            RL MPC Ours            |         LLM+MPC         |
+| SurrealDriver |        GPT-4        |   Planning Control  |     coach agent’ module Human     |            -            |
+|   GPT-Driver  |       GPT-3.5       |       Planning      |          UniAD AMOTA BEV          |            -            |
+|      DlaH     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
+|      RRR      |        GPT-4        |   Planning Control  |                 -                 |            -            |

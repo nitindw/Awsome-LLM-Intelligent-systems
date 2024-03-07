@@ -396,23 +396,23 @@ Simulation plays a critical role in the research and development of autonomous d
 | **Dataset** | **Source Dataset** | **Task**            | **Total Frames** | **Promt Logic** | **Total captions/QA** | **Anotator**   |
 |-------------|--------------------|---------------------|------------------|-----------------|-----------------------|----------------|
 |             |                    |                     |                  |                 | Perception: 25k       |                |
-| HAD         | HAD                | Perception Planning | 25,549           | None            | Planning: 20k         | Person         |
+| [HAD HRI Advice 2019](https://usa.honda-ri.com/had)         | HAD                | Perception Planning | 25,549           | None            | Planning: 20k         | Person         |
 |             |                    |                     |                  |                 | Prediction:           |                |
 |             |                    |                     |                  |                 | Perception:           |                |
-| Rank2Tell   | Rank2Tell          | Perception          | 5,800            | Chain           | Planning:             | Person         |
+| [Rank2Tell](https://paperswithcode.com/paper/rank2tell-a-multimodal-driving-dataset-for)   | Rank2Tell          | Perception          | 5,800            | Chain           | Planning:             | Person         |
 |             |                    |                     |                  |                 | Prediction:           |                |
 |             |                    |                     |                  |                 | Perception: 35k       | Person GPT-3.5 |
-| NuPrompt    | NuScenes           | Perception          | 34,149           | None            | Planning:             |                |
+| [NuPrompt](https://arxiv.org/abs/2309.04379)    | NuScenes           | Perception          | 34,149           | None            | Planning:             |                |
 |             |                    |                     |                  |                 | Prediction:           |                |
 |             |                    |                     |                  |                 | Perception: 460k      |                |
-| NuScenes    | NuScenes           | VQA                 | 34,149           | None            | Planning:             | Rule-Based     |
+| [nuScenes-QA 2023](https://arxiv.org/abs/2305.14836)    | NuScenes           | VQA                 | 34,149           | None            | Planning:             | Rule-Based     |
 |             |                    |                     |                  |                 | Prediction:           |                |
 |             |                    |                     |                  |                 | Perception: 26k       |                |
-| BDD-X       | BDD                | Planning VQA        | 26,228           | None            | Planning:             | Person         |
+| [BDD-X 2018](https://github.com/JinkyuKimUCB/explainable-deep-driving)       | BDD                | Planning VQA        | 26,228           | None            | Planning:             | Person         |
 |             |                    |                     |                  |                 | Prediction:           |                |
 |             |                    |                     |                  |                 | Perception: 85k       |                |
-| DRAMA       | DRAMA              | VQA                 | 17,785           | Chain           | Planning: 17k         | Person         |
+| [DRAMA](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9772974)       | DRAMA              | VQA                 | 17,785           | Chain           | Planning: 17k         | Person         |
 |             |                    |                     |                  |                 | Prediction:           |                |
 |             |                    |                     |                  |                 | Perception: 85k       |                |
-| Talk2Car    | Talk2Car           | Perception Planning | 30,000           | None            | Planning: 17k         | Person         |
+| [Talk2Car 2019](https://github.com/talk2car/Talk2Car)    | Talk2Car           | Perception Planning | 30,000           | None            | Planning: 17k         | Person         |
 |             |                    |                     |                  |                 | Prediction:           |                |

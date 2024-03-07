@@ -375,6 +375,7 @@ Simulation plays a critical role in the research and development of autonomous d
 
 ## Datasets
 <br>
+
 |   **Paper**   |     **Backbone**    |       **Task**      |        **Evaluation(LLM)**        | **Evaluation(driving)** |
 |:-------------:|:-------------------:|:-------------------:|:---------------------------------:|:-----------------------:|
 |    MTD-GPT    |        GPT 2        |      Perception     |                RLHF               |                         |
@@ -389,7 +390,9 @@ Simulation plays a critical role in the research and development of autonomous d
 |   GPT-Driver  |       GPT-3.5       |       Planning      |          UniAD AMOTA BEV          |            -            |
 |      DlaH     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
 |      RRR      |        GPT-4        |   Planning Control  |                 -                 |            -            |
+
 <br><br>
+
 | **Dataset** | **Source Dataset** | **Task**            | **Total Frames** | **Promt Logic** | **Total captions/QA** | **Anotator**   |
 |-------------|--------------------|---------------------|------------------|-----------------|-----------------------|----------------|
 |             |                    |                     |                  |                 | Perception: 25k       |                |

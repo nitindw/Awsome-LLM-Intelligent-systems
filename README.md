@@ -1,5 +1,5 @@
 # <p align=center>`Awsome-LLM-Modal for Autonomous Driving`<br>
-This repo contains a curated list of resources on LLM for Intelligent systems( Autonomous driving, Robotics ..etc), arranged chronologically. We regularly update it with the latest papers and their corresponding open-source implementations.</p>
+This repo contains a curated list of resources on LLM for Intelligent systems(Autonomous driving, Robotics, etc.), arranged chronologically. We regularly update it with the latest papers and their corresponding open-source implementations.</p>
 
 <p align="center">
 <img src="/Learning3_Methods.gif" width="500" height="500"/>
@@ -42,9 +42,6 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 |      [DlaH](https://arxiv.org/abs/2307.07162)     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
 |      [RRR](https://arxiv.org/abs/2310.08034)      |        GPT-4        |   Planning Control  |                 -                 |            -            |
 
-# Perception
-The following are the different Perception approaches of LLM 
-
 ## Perception
 
 - [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [arXiv 2023] <br> Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wayveai/Driving-with-LLMs)
@@ -52,7 +49,7 @@ The following are the different Perception approaches of LLM
   - Modality: Vector, Language
   - Output: Answer, Actions
 <p align="justify">
-  Large Language Models (LLMs) have shown promise in the autonomous driving
+<b>Abstract:-</b>  Large Language Models (LLMs) have shown promise in the autonomous driving
 sector, particularly in generalization and interpretability. This paper introduces a unique
 object-level multimodal LLM architecture that merges vectorized numeric modalities with a pre-trained LLM to improve context understanding in driving situations.
 They also present a new dataset of 160k QA pairs derived from 10k driving scenarios,
@@ -72,7 +69,7 @@ further exploration.
   - Modality: Vision Language
   - Output: Answer
 <p align="justify">
-This work introduces Talk2BEV, a large vision language model (LVLM)1
+<b>Abstract:-</b> This work introduces Talk2BEV, a large vision language model (LVLM)1
 interface for bird’s-eye view (BEV)
 maps in autonomous driving contexts. While existing perception
 systems for autonomous driving scenarios have largely focused
@@ -97,7 +94,7 @@ and ground-truth responses from the NuScenes dataset.
   - Modality: Vision Language
   - Output: Answer
 <p align = "justify">
- For safe navigation without human intervention, autonomous driving (AD) systems need to understand the
+<b>Abstract:-</b> For safe navigation without human intervention, autonomous driving (AD) systems need to understand the
 visual world around them to make informed decisions. This
  entails not just recognizing specific object categories, but also
 contextualizing their current and potential future interactions
@@ -119,7 +116,7 @@ used in autonomous driving?
   - Modality: Vision Language
   - Output: Video
 <p align="justify">
-Autonomous driving promises transformative improvements to transportation, but
+<b>Abstract:-</b> Autonomous driving promises transformative improvements to transportation, but
 building systems capable of safely navigating the unstructured complexity of
 real-world scenarios remain challenging. A critical problem lies in effectively
 predicting the various potential outcomes that may emerge in response to the
@@ -134,7 +131,7 @@ generalization, and understanding of geometry. The power of GAIA-1’s learned
 representation that captures expectations of future events, combined with its ability
 to generate realistic samples, provides new possibilities for innovation in the field
 of autonomy, enabling enhanced and accelerated training of autonomous driving
-technology
+technology.
   </p>
   
  - [**Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents**](https://arxiv.org/abs/2201.07207) [arXiv 2022] <br> Wenlong Huang, Pieter Abbeel, Deepak Pathak, and Igor Mordatch. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huangwl18/language-planner)
@@ -142,7 +139,7 @@ technology
   - Modality: Language
   - Output: proposal
 <p align = "justify">
-  Can world knowledge learned by large language models (LLMs) be used to act in
+<b>Abstract:-</b> Can world knowledge learned by large language models (LLMs) be used to act in
 interactive environments? In this paper, They investigate the possibility of grounding
 high-level tasks, expressed in natural language (e.g. “make breakfast”), to a chosen
 set of actionable steps (e.g. “open fridge”). While prior work focused on learning
@@ -154,7 +151,7 @@ semantically translates the plans to admissible actions. Our evaluation in the r
 VirtualHome environment shows that the resulting method substantially improves
 executability over the LLM baseline. The conducted human evaluation reveals a
 trade-off between executability and correctness but shows a promising sign towards
-extracting actionable knowledge from language models
+extracting actionable knowledge from language models.
 </p>
 
 - [**Dilu: Aknowledge-driven approach to autonomous driving with large language models**](https://arxiv.org/abs/2309.16292) [arXiv 2023] <br> LichengWen, Daocheng Fu, XinLi, XinyuCai, Tao Ma, PinlongCai, MinDou, BotianShi, LiangHe, and YuQiao. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
@@ -162,7 +159,7 @@ extracting actionable knowledge from language models
   - Modality: Language
   - Output: Action
 <p align = "justify">
-  Recent advancements in autonomous driving have relied on data-driven approaches, which are widely adopted but face challenges including dataset bias,
+<b>Abstract:-</b> Recent advancements in autonomous driving have relied on data-driven approaches, which are widely adopted but face challenges including dataset bias,
 overfitting, and uninterpretability. Drawing inspiration from the knowledge-driven
 nature of human driving, They explore the question of how to instill similar capabilities into autonomous driving systems and summarize a paradigm that integrates an interactive environment, a driver agent, as well as a memory component
 to address this question. Leveraging large language models (LLMs) with emergent abilities, They propose the DiLu framework, which combines Reasoning and
@@ -180,7 +177,7 @@ autonomous driving domain.
   - Modality: Language
   - Output: code
 <p align="justify">
-  The future of autonomous vehicles lies in the convergence of human-centric design and advanced AI capabilities. Autonomous vehicles of the future will not only transport passengers but also interact and adapt to their desires, making the journey comfortable, efficient, and pleasant. In this paper, They present a novel framework that leverages Large Language Models (LLMs) to enhance autonomous vehicles' decision-making processes. By integrating LLMs' natural language capabilities and contextual understanding, specialized tools usage, synergizing reasoning, and acting with various modules on autonomous vehicles, this framework aims to seamlessly integrate the advanced language and reasoning capabilities of LLMs into autonomous vehicles. The proposed framework holds the potential to revolutionize the way autonomous vehicles operate, offering personalized assistance, continuous learning, and transparent decision-making, ultimately contributing to safer and more efficient autonomous driving technologies.
+<b>Abstract:-</b> The future of autonomous vehicles lies in the convergence of human-centric design and advanced AI capabilities. Autonomous vehicles of the future will not only transport passengers but also interact and adapt to their desires, making the journey comfortable, efficient, and pleasant. In this paper, They present a novel framework that leverages Large Language Models (LLMs) to enhance autonomous vehicles' decision-making processes. By integrating LLMs' natural language capabilities and contextual understanding, specialized tools usage, synergizing reasoning, and acting with various modules on autonomous vehicles, this framework aims to seamlessly integrate the advanced language and reasoning capabilities of LLMs into autonomous vehicles. The proposed framework holds the potential to revolutionize the way autonomous vehicles operate, offering personalized assistance, continuous learning, and transparent decision-making, ultimately contributing to safer and more efficient autonomous driving technologies.
 </p>
 
 - [**Receive, Reason,andReact: Drive as You Say with Large Language Models in Autonomous Vehicles**](https://arxiv.org/abs/2310.08034) [arXiv 2023] <br> CanCui, YunshengMa, XuCao, WenqianYe, andZiran Wang. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DiLu)
@@ -188,7 +185,7 @@ autonomous driving domain.
   - Modality: Language
   - Output: Answer
 <p align="justify">
-The fusion of human-centric design and artificial
+<b>Abstract:-</b> The fusion of human-centric design and artificial
 intelligence (AI) capabilities has opened up new possibilities for
 next-generation autonomous vehicles that go beyond transportation. These vehicles can dynamically interact with passengers
 and adapt to their preferences. This paper proposes a novel
@@ -214,7 +211,7 @@ LLMs into autonomous vehicles.
   - Modality: Language
   - Output: Answer
 <p align="justify">
-In this paper, They explore the potential of using a large language model (LLM) to understand the driving environment in a human-like manner and analyze its ability to reason, interpret, and memorize when facing complex scenarios. They argue that traditional optimization-based and modular autonomous driving (AD) systems face inherent performance limitations when dealing with long-tail corner cases. To address this problem, they propose that an ideal AD system should drive like a human, accumulating experience through continuous driving and using common sense to solve problems. To achieve this goal, They identify three key abilities necessary for an AD system: reasoning, interpretation, and memorization. They demonstrate the feasibility of employing an LLM in driving scenarios by building a closed-loop system to showcase its comprehension and environment-interaction abilities. Our extensive experiments show that the LLM exhibits the impressive ability to reason and solve long-tailed cases, providing valuable insights for the development of human-like autonomous driving.
+<b>Abstract:-</b> In this paper, They explore the potential of using a large language model (LLM) to understand the driving environment in a human-like manner and analyze its ability to reason, interpret, and memorize when facing complex scenarios. They argue that traditional optimization-based and modular autonomous driving (AD) systems face inherent performance limitations when dealing with long-tail corner cases. To address this problem, they propose that an ideal AD system should drive like a human, accumulating experience through continuous driving and using common sense to solve problems. To achieve this goal, They identify three key abilities necessary for an AD system: reasoning, interpretation, and memorization. They demonstrate the feasibility of employing an LLM in driving scenarios by building a closed-loop system to showcase its comprehension and environment-interaction abilities. Our extensive experiments show that the LLM exhibits the impressive ability to reason and solve long-tailed cases, providing valuable insights for the development of human-like autonomous driving.
 </p>
 
 - [**Learning to Drive with GPT**](https://arxiv.org/abs/2310.01415) [arXiv 2023] <br> JiagengMao, Yuxi Qian, HangZhao, andYueWang. <br> [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PointsCoder/GPT-Driver)
@@ -222,7 +219,7 @@ In this paper, They explore the potential of using a large language model (LLM) 
   - Modality: Vision Language
   - Output: Route
 <p align="justify">
-They present a simple yet effective approach that can transform the OpenAI GPT-3.5 model into a reliable motion planner for autonomous vehicles. Motion planning is a core challenge in autonomous driving, aiming to plan a driving trajectory that is safe and comfortable. Existing motion planners predominantly leverage heuristic methods to forecast driving trajectories, yet these approaches demonstrate insufficient generalization capabilities in the face of novel and unseen driving scenarios. In this paper, they propose a novel approach to motion planning that capitalizes on the strong reasoning capabilities and generalization potential inherent to Large Language Models (LLMs). The fundamental insight of our approach is the reformulation of motion planning as a language modeling problem, a perspective not previously explored. Specifically, They represent the planner inputs and outputs as language tokens and leverage the LLM to generate driving trajectories through a language description of coordinate positions. Furthermore, they propose a novel prompting-reasoning-finetuning strategy to stimulate the numerical reasoning potential of the LLM. With this strategy, the LLM can describe highly precise trajectory coordinates and also its internal decision-making process in natural language. They evaluate our approach on the large-scale nuScenes dataset, and extensive experiments substantiate the effectiveness, generalization ability, and interpretability of our GPT-based motion planner.
+<b>Abstract:-</b> They present a simple yet effective approach that can transform the OpenAI GPT-3.5 model into a reliable motion planner for autonomous vehicles. Motion planning is a core challenge in autonomous driving, aiming to plan a driving trajectory that is safe and comfortable. Existing motion planners predominantly leverage heuristic methods to forecast driving trajectories, yet these approaches demonstrate insufficient generalization capabilities in the face of novel and unseen driving scenarios. In this paper, they propose a novel approach to motion planning that capitalizes on the strong reasoning capabilities and generalization potential inherent to Large Language Models (LLMs). The fundamental insight of our approach is the reformulation of motion planning as a language modeling problem, a perspective not previously explored. Specifically, They represent the planner inputs and outputs as language tokens and leverage the LLM to generate driving trajectories through a language description of coordinate positions. Furthermore, they propose a novel prompting-reasoning-finetuning strategy to stimulate the numerical reasoning potential of the LLM. With this strategy, the LLM can describe highly precise trajectory coordinates and also its internal decision-making process in natural language. They evaluate our approach on the large-scale nuScenes dataset, and extensive experiments substantiate the effectiveness, generalization ability, and interpretability of our GPT-based motion planner.
 </p>
 
 - [**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv 2023] <br> Ye Jin, Xiaoxi Shen, HuilingPeng, XiaoanLiu, Jingli Qin, JiayangLi, JintaoXie, PeizhongGao, GuyueZhou, and Jiangtao Gong. <br>
@@ -230,7 +227,7 @@ They present a simple yet effective approach that can transform the OpenAI GPT-3
   - Modality: Language
   - Output: Text, Answer
 <p align="justify">
-Simulation plays a critical role in the research and development of autonomous driving and intelligent transportation systems. However, the current simulation platforms exhibit limitations in the realism and diversity of agent behaviors, which impede the transfer of simulation outcomes to the real world. In this paper, they propose a generative driver agent simulation framework based on large language models (LLMs), capable of perceiving complex traffic scenarios and providing realistic driving maneuvers. Notably, they conducted interviews with 24 drivers and used their detailed descriptions of driving behavior as chain-of-thought prompts to develop a `coach agent' module, which can evaluate and assist driver agents in accumulating driving experience and developing human-like driving styles. Through practical simulation experiments and user experiments, they validate the feasibility of this framework in generating reliable driver agents and analyze the roles of each module. The results show that the framework with full architect decreased the collision rate by 81.04% and increased the human-likeness by 50%. Our research proposes the first urban context driver agent simulation framework based on LLMs and provides valuable insights into the future of agent simulation for complex tasks.
+<b>Abstract:-</b> Simulation plays a critical role in the research and development of autonomous driving and intelligent transportation systems. However, the current simulation platforms exhibit limitations in the realism and diversity of agent behaviors, which impede the transfer of simulation outcomes to the real world. In this paper, they propose a generative driver agent simulation framework based on large language models (LLMs), capable of perceiving complex traffic scenarios and providing realistic driving maneuvers. Notably, they conducted interviews with 24 drivers and used their detailed descriptions of driving behavior as chain-of-thought prompts to develop a `coach agent' module, which can evaluate and assist driver agents in accumulating driving experience and developing human-like driving styles. Through practical simulation experiments and user experiments, they validate the feasibility of this framework in generating reliable driver agents and analyze the roles of each module. The results show that the framework with full architect decreased the collision rate by 81.04% and increased the human-likeness by 50%. Our research proposes the first urban context driver agent simulation framework based on LLMs and provides valuable insights into the future of agent simulation for complex tasks.
 </p>
 
 ## Control
@@ -240,7 +237,7 @@ Simulation plays a critical role in the research and development of autonomous d
   - Modality: Vector, Language
   - Output: Answer, Actions
 <p align="justify">
-With camera sensors being one of the most common sensors used in autonomous driving <a href="https://www.mdpi.com/1424-8220/23/6/3335">Sensor fusion in autonomous vehicle
+<b>Abstract:-</b> With camera sensors being one of the most common sensors used in autonomous driving <a href="https://www.mdpi.com/1424-8220/23/6/3335">Sensor fusion in autonomous vehicle
 with traffic surveillance camera system: Detection, localization, and ai networking</a>, a
 natural step to incorporate language has been through VLMs. For example <a href="https://proceedings.mlr.press/v100/roh20a.html">Conditional driving from natural
 language instructions </a>uses images and
@@ -267,7 +264,7 @@ numeric vector modality with language specifically in the domain of autonomous v
   - Modality: Language
   - Output: Action
 <p align="justify">
-Drawing inspiration from the profound question posed by LeCun (2022):<b> “Why can an adolescent learn to drive a car in about 20 hours of practice and know how to act in many situations"</b>
+<b>Abstract:-</b> Drawing inspiration from the profound question posed by LeCun (2022):<b> “Why can an adolescent learn to drive a car in about 20 hours of practice and know how to act in many situations"</b>
 he/she has never encountered before?”, They explore the core principles that underlie human driving
 skills and raise a pivotal distinction: human driving is fundamentally knowledge-driven, as opposed
 to data-driven. For example, when faced with a situation where the truck ahead is in danger of
@@ -279,7 +276,7 @@ real-world scenarios. This observation catalyzes a fundamental question:<b> How 
 knowledge-driven capabilities of human drivers into an autonomous driving system?</b>
 </p>
 <p align="justify">
-  In terms of the setup for highway-env, They directly obtain vehicle information from the underlying
+<b>Abstract:-</b> In terms of the setup for highway-env, They directly obtain vehicle information from the underlying
 simulation and input it into the scenario descriptor. This information only includes each vehicle’s
 position, speed, and acceleration data in the current frame, without any decision intent or potential
 risk information, as shown in Figure 8. Meta-actions are used as the decision output in our experiments, which include five discrete actions to control the ego vehicle: acceleration, maintaining
@@ -340,7 +337,7 @@ potential in the realm of autonomous vehicles.
   - Modality: Language
   - Output: Answer
 <p align="justify">
-Towards the goal of driving like a human, They identify three abilities that are necessary: 1) Reasoning:
+<b>Abstract:-</b> Towards the goal of driving like a human, They identify three abilities that are necessary: 1) Reasoning:
 Given a specific driving scenario, the model should be able to make decisions by reasoning via
 common sense and experience. 2) Interpretation The decisions made by the agent should able to be
 interpreted. This demonstrates the ability of introspection and the existence of declarative memory.
@@ -377,13 +374,13 @@ contribute to the development of human-like autonomous driving.</li></ol>
   - Modality: Language
   - Output: Text, Answer
 <p align="justify">
-Simulation plays a critical role in the research and development of autonomous driving and intelligent transportation systems. However, the current simulation platforms exhibit limitations in the realism and diversity of agent behaviors, which impede the transfer of simulation outcomes to the real world. In this paper, They propose a generative driver agent simulation framework based on large language models (LLMs), capable of perceiving complex traffic scenarios and providing realistic driving maneuvers. Notably, They conducted interviews with 24 drivers and used their detailed descriptions of driving behavior as chain-of-thought prompts to develop a `coach agent' module, which can evaluate and assist driver agents in accumulating driving experience and developing human-like driving styles. Through practical simulation experiments and user experiments, They validate the feasibility of this framework in generating reliable driver agents and analyze the roles of each module. The results show that the framework with full architect decreased the collision rate by 81.04% and increased the human-likeness by 50%. Our research proposes the first urban context driver agent simulation framework based on LLMs and provides valuable insights into the future of agent simulation for complex tasks.
+<b>Abstract:-</b> Simulation plays a critical role in the research and development of autonomous driving and intelligent transportation systems. However, the current simulation platforms exhibit limitations in the realism and diversity of agent behaviors, which impede the transfer of simulation outcomes to the real world. In this paper, They propose a generative driver agent simulation framework based on large language models (LLMs), capable of perceiving complex traffic scenarios and providing realistic driving maneuvers. Notably, They conducted interviews with 24 drivers and used their detailed descriptions of driving behavior as chain-of-thought prompts to develop a `coach agent' module, which can evaluate and assist driver agents in accumulating driving experience and developing human-like driving styles. Through practical simulation experiments and user experiments, They validate the feasibility of this framework in generating reliable driver agents and analyze the roles of each module. The results show that the framework with full architect decreased the collision rate by 81.04% and increased the human-likeness by 50%. Our research proposes the first urban context driver agent simulation framework based on LLMs and provides valuable insights into the future of agent simulation for complex tasks.
 </p>
 
 ## Prompt Engineering 
 - [**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://arxiv.org/pdf/2310.01957.pdf)<br>Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton<br>
 <p align="justify">
-Large Language Models (LLMs) have shown promise in the autonomous driving
+<b>Abstract:-</b> Large Language Models (LLMs) have shown promise in the autonomous driving
 sector, particularly in generalization and interpretability. We introduce a unique
 object-level multimodal LLM architecture that merges vectorized numeric modalities with a pre-trained LLM to improve context understanding in driving situations.
 We also present a new dataset of 160k QA pairs derived from 10k driving scenarios,
@@ -400,13 +397,13 @@ further exploration.
 </p>
 
 - [**DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model**](https://arxiv.org/pdf/2310.01412.pdf)<br>Zhenhua Xu, Yujia Zhang, Enze Xie, Zhen Zhao, Yong Guo, Kwan-Yee. K. Wong, Zhenguo Li, Hengshuang Zhao<be>
-<p align="justify">Multimodal large language models (MLLMs)
+<p align="justify"><b>Abstract:-</b> Multimodal large language models (MLLMs)
 have emerged as a prominent area of interest
 within the research community, given their proficiency in handling and reasoning with non-textual
 data, including images and videos. This study
 seeks to extend the application of MLLMs to
 the realm of autonomous driving by introducing
-DriveGPT4, a novel interpretable end-to-end autonomous driving system based on LLMs. Capable of processing multi-frame video inputs
+DriveGPT4, is a novel interpretable end-to-end autonomous driving system based on LLMs. Capable of processing multi-frame video inputs
 and textual queries, DriveGPT4 facilitates the interpretation of vehicle actions, offers pertinent
 reasoning, and effectively addresses a diverse
 range of questions posed by users. Furthermore,
@@ -424,7 +421,7 @@ code and dataset will be publicly available.</p>
 
 - [**DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models**](https://ieeexplore.ieee.org/abstract/document/10297415?casa_token=xkscYTulgKUAAAAA:2myyXru9blsZQ9UzYZ3l_LuPOYEkbjZSwKjepbfMXDS6qqXmsDr9BxOeHCXVeYn0dpf1H7ohqux6)<br>Yaodong Cui, Shucheng Huang, Jiaming Zhong, Zhenan Liu, Yutong Wang, Chen Sun, Bai Li, Xiao Wang, and Amir Khajepour.<be>
 <p align="justify">
-Human drivers instinctively reason with commonsense knowledge to predict hazards in unfamiliar scenarios and to
+<b>Abstract:-</b> Human drivers instinctively reason with commonsense knowledge to predict hazards in unfamiliar scenarios and to
 understand the intentions of other road users. However, this essential capability is entirely missing from traditional decision-making
 systems in autonomous driving. In response, this paper presents
 DriveLLM, a decision-making framework that integrates large
@@ -444,16 +441,15 @@ human instructions.
 ## Simulation Framework
 - [**Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents**](https://arxiv.org/abs/2402.05746) [arXiv 2023]
 <br>Yuxi Wei, Zi Wang, Yifan Lu, Chenxin Xu, Changxing Liu, Hao Zhao, Siheng Chen, Yanfeng Wang<be>
-<p align = "justify">Scene simulation in autonomous driving has gained significant attention because of its huge potential for generating customized data. However, existing editable scene simulation approaches face limitations in terms of user interaction efficiency, multi-camera photo-realistic rendering and external digital assets integration. To address these challenges, this paper introduces ChatSim, the first system that enables editable photo-realistic 3D driving scene simulations via natural language commands with external digital assets. To enable editing with high command flexibility,~ChatSim leverages a large language model (LLM) agent collaboration framework. To generate photo-realistic outcomes, ChatSim employs a novel multi-camera neural radiance field method. Furthermore, to unleash the potential of extensive high-quality digital assets, ChatSim employs a novel multi-camera lighting estimation method to achieve scene-consistent assets rendering. Our experiments on Waymo Open Dataset demonstrate that ChatSim can handle complex language commands and generate corresponding photo-realistic scene videos.</p>
+<p align = "justify"><b>Abstract:-</b> Scene simulation in autonomous driving has gained significant attention because of its huge potential for generating customized data. However, existing editable scene simulation approaches face limitations in terms of user interaction efficiency, multi-camera photo-realistic rendering and external digital assets integration. To address these challenges, this paper introduces ChatSim, the first system that enables editable photo-realistic 3D driving scene simulations via natural language commands with external digital assets. To enable editing with high command flexibility,~ChatSim leverages a large language model (LLM) agent collaboration framework. To generate photo-realistic outcomes, ChatSim employs a novel multi-camera neural radiance field method. Furthermore, to unleash the potential of extensive high-quality digital assets, ChatSim employs a novel multi-camera lighting estimation method to achieve scene-consistent assets rendering. Our experiments on Waymo Open Dataset demonstrate that ChatSim can handle complex language commands and generate corresponding photo-realistic scene videos.</p>
 
 - [**Empowering Autonomous Driving with Large Language Models: A Safety Perspective**](https://arxiv.org/html/2312.00812v3)
 <be>Yixuan Wang, Ruochen Jiao, Chengtian Lang, Sinong Simon Zhan, Chao Huang, Zhaoran Wang, Zhuoran Yang, Qi Zhu<be>
 <p align="justify">
-  Autonomous Driving (AD) faces crucial hurdles for commercial launch, notably in the form of diminished public trust and safety concerns from long-tail unforeseen driving scenarios. This predicament is due to the limitation of deep neural networks in AD software, which struggle with interpretability and exhibit poor generalization capabilities in out-of-distribution and uncertain scenarios. To this end, this paper explores the integration of Large Language Models (LLMs) into the AD system, leveraging their robust common-sense knowledge, reasoning abilities, and human-interaction capabilities. The proposed approach deploys the LLM as an intelligent decision-maker for planning, incorporating safety verifiers for in-context safety learning to enhance overall AD performance and safety. We present two case studies to affirm the efficacy of our approach. We further discuss the potential usage of LLM for other AD software components including perception, prediction, and simulation. Despite the observed challenges in the case studies, integrating LLMs is promising and beneficial to reinforce the safety and performance of AD.
+<b>Abstract:-</b> Autonomous Driving (AD) faces crucial hurdles for commercial launch, notably in the form of diminished public trust and safety concerns from long-tail unforeseen driving scenarios. This predicament is due to the limitation of deep neural networks in AD software, which struggle with interpretability and exhibit poor generalization capabilities in out-of-distribution and uncertain scenarios. To this end, this paper explores the integration of Large Language Models (LLMs) into the AD system, leveraging their robust common-sense knowledge, reasoning abilities, and human-interaction capabilities. The proposed approach deploys the LLM as an intelligent decision-maker for planning, incorporating safety verifiers for in-context safety learning to enhance overall AD performance and safety. We present two case studies to affirm the efficacy of our approach. We further discuss the potential usage of LLM for other AD software components including perception, prediction, and simulation. Despite the observed challenges in the case studies, integrating LLMs is promising and beneficial to reinforce the safety and performance of AD.
 </p>
 
 ## Datasets
-
 
 <br><br>
 

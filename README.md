@@ -41,6 +41,7 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 |   [GPT-Driver](https://arxiv.org/abs/2310.01415)  |       GPT-3.5       |       Planning      |          UniAD AMOTA BEV          |            -            |
 |      [DlaH](https://arxiv.org/abs/2307.07162)     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
 |      [RRR](https://arxiv.org/abs/2310.08034)      |        GPT-4        |   Planning Control  |                 -                 |            -            |
+|      [DriveLLM](https://ieeexplore.ieee.org/abstract/document/10297415)    |    GPT-4     |   Planning Control    |      virtual/cyber     |    Physical Environment    |
 
 ## Perception
 

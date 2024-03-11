@@ -14,6 +14,7 @@ This repo contains a curated list of resources on LLM for Intelligent systems( A
 Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https://github.com/Pranav-chib) , [Pravendra Singh](https://scholar.google.com/citations?user=YwDTxJMAAAAJ&hl=en) </p>
 ## Table of Contents
 
+- [Paper at Glance](#Paper-at-Glance)
 - [Perception](#Perception)
 - [Planning](#Planning)
 - [Control](#Control)
@@ -22,6 +23,24 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 - [Simulation Frameworks](#SimulationFrameworks)
 - [Datasets](#Dataset)
 - [CITATION](#Citation)
+
+# Paper at Glance
+<br>
+
+|   **Paper**   |     **Backbone**    |       **Task**      |        **Evaluation(LLM)**        | **Evaluation(driving)** |
+|:-------------:|:-------------------:|:-------------------:|:---------------------------------:|:-----------------------:|
+|    [MTD-GPT](https://arxiv.org/abs/2307.16118)    |        GPT 2        |      Perception     |                RLHF               |                         |
+|   [DriveGPT4](https://arxiv.org/abs/2310.01412)   |       Llama 2       |   Planning Control  |  BLEU4 METEOR CIDEr ChatGPT score | RMSE Threshold accuracy |
+|    [Talk2BEV](https://paperswithcode.com/paper/talk2bev-language-enhanced-bird-s-eye-view)   | Flan5XXL Vicuna-13b | Perception Planning |               LVLMs               |         BEV maps        |
+|     [GAIA-1](https://arxiv.org/abs/2309.17080)    |          -          |       Planning      |        geofenced validation       |            -            |
+|     [LaMP](https://arxiv.org/html/2304.11406v3)     |     GPT-3 Codex     |       Planning      |  executability correctness Human  |            -            |
+|      [Dilu](https://arxiv.org/abs/2309.16292)     |    GPT-3.5 GPT-4    |   Planning Control  | lane-4-density-2 lane-5-density-3 |           GRAD          |
+|      [DaYS](https://openaccess.thecvf.com/content/WACV2024W/LLVM-AD/html/Cui_Drive_As_You_Speak_Enabling_Human-Like_Interaction_With_Large_Language_WACVW_2024_paper.html)     |        GPT-4        |       Planning      |                 -                 |            -            |
+|  [LanguageMPC](https://arxiv.org/abs/2310.03026)  |       GPT-3.5       |       Planning      |            RL MPC Ours            |         LLM+MPC         |
+| [SurrealDriver](https://arxiv.org/abs/2309.13193) |        GPT-4        |   Planning Control  |     coach agent’ module Human     |            -            |
+|   [GPT-Driver](https://arxiv.org/abs/2310.01415)  |       GPT-3.5       |       Planning      |          UniAD AMOTA BEV          |            -            |
+|      [DlaH](https://arxiv.org/abs/2307.07162)     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
+|      [RRR](https://arxiv.org/abs/2310.08034)      |        GPT-4        |   Planning Control  |                 -                 |            -            |
 
 # Perception
 The following are the different Perception approaches of LLM 
@@ -434,22 +453,7 @@ human instructions.
 </p>
 
 ## Datasets
-<br>
 
-|   **Paper**   |     **Backbone**    |       **Task**      |        **Evaluation(LLM)**        | **Evaluation(driving)** |
-|:-------------:|:-------------------:|:-------------------:|:---------------------------------:|:-----------------------:|
-|    MTD-GPT    |        GPT 2        |      Perception     |                RLHF               |                         |
-|   DriveGPT4   |       Llama 2       |   Planning Control  |  BLEU4 METEOR CIDEr ChatGPT score | RMSE Threshold accuracy |
-|    Talk2BEV   | Flan5XXL Vicuna-13b | Perception Planning |               LVLMs               |         BEV maps        |
-|     GAIA-1    |          -          |       Planning      |        geofenced validation       |            -            |
-|     LMaZP     |     GPT-3 Codex     |       Planning      |  executability correctness Human  |            -            |
-|      Dilu     |    GPT-3.5 GPT-4    |   Planning Control  | lane-4-density-2 lane-5-density-3 |           GRAD          |
-|      DaYS     |        GPT-4        |       Planning      |                 -                 |            -            |
-|  LanguageMPC  |       GPT-3.5       |       Planning      |            RL MPC Ours            |         LLM+MPC         |
-| SurrealDriver |        GPT-4        |   Planning Control  |     coach agent’ module Human     |            -            |
-|   GPT-Driver  |       GPT-3.5       |       Planning      |          UniAD AMOTA BEV          |            -            |
-|      DlaH     |       GPT-3.5       |   Planning Control  |     pass rate, collision rate     |            -            |
-|      RRR      |        GPT-4        |   Planning Control  |                 -                 |            -            |
 
 <br><br>
 

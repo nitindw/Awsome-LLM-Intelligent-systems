@@ -44,6 +44,7 @@ Authors:[Nitin Dwivedi](https://github.com/nitindw), [Pranav Singh Chib](https:/
 |      [DriveLLM](https://ieeexplore.ieee.org/abstract/document/10297415)    |    GPT-4     |   Planning Control    |      virtual/cyber Environment Evaluation    |    Physical Environment Evaluation   |
 |[DriveMLM](https://arxiv.org/abs/2312.09245)|LLaMA+Q-Former|Perception Planning | - |  CARLATown05, Apollo baseline by 4.7 |
 |[DriveLM](https://arxiv.org/abs/2312.14150)|GVQA|Perception, Planning|||
+|[LangProp](https://arxiv.org/abs/2401.10314)|IL, DAgger, RL + ChatGPT|Planning (Code/Action Generation)||CARLAversion0.9.10|
 
 ## Perception
 
